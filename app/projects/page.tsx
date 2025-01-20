@@ -1,10 +1,6 @@
 import { AnimatedText } from "@/components/animated-text";
 import { FeaturedProject } from "@/components/featured-project";
 import { Layout } from "@/components/layout";
-import manageLandingPage from '../../public/images/projects/manage-landing-page.png';
-import nexter from '../../public/images/projects/nexter.png';
-import slackClone from '../../public/images/projects/slack-clone.png';
-import spaceTravel from '../../public/images/projects/space-travel.png';
 import gameHub from '../../public/images/projects/gameHub.png';
 import ecommerce from '../../public/images/projects/ecommerce.png';
 import indoor from '../../public/images/projects/indoor.png';
