@@ -12,8 +12,8 @@ import indoor from '../../public/images/projects/indoor.png';
 
 const projects = [
   {
-    title: "360-Degree Immersive Experience for Indoor Cycling",
-    summary: "Research paper published on Conference ICVARS :International Conference on Virtual and Augmented Reality Simulations:",
+    title: "Virtual Experience for Indoor Cycling",
+    summary: "Research paper published on Conference ICVARS",
     img: indoor,
     // github: "https://github.com/hasithajayasundara/frontend-mentor-mini-projects/tree/main/space-travel",
     link: "https://dl.acm.org/doi/10.1145/3546607.3546608",
@@ -23,13 +23,14 @@ const projects = [
     summary: "Platform with a diverse collection of games",
     img: gameHub,
     github: "https://github.com/hasithajayasundara/frontend-mentor-mini-projects/tree/main/manage-landing-page",
-    link: "https://managelphnj.netlify.app/",
+    link: "https://game-hub-ten-bice.vercel.app/",
   },
   {
     title: "Ocean Prime E-Commerce ",
     summary: "E-commerce application designed to provide a seamless online shopping experience",
     img: ecommerce,
     github: "https://github.com/DinelyWellehewage/ocean-prime-ecommerce?tab=readme-ov-file",
+    link: "https://github.com/DinelyWellehewage/ocean-prime-ecommerce?tab=readme-ov-file"
   },
 ];
 

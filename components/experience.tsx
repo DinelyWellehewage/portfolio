@@ -12,9 +12,12 @@ const experienceConfig = [
     time: "2022 — 2024",
     address: "Colombo, Sri Lanka",
     companyLink: "https://www.axiatadigitallabs.com/",
-    work: `Spearheaded developing of microservices-based applications for customer data management within the Digi Migration System. 
-    Designed and implemented scalable solutions utilizing Java Spring Boot ,JPA and associated technologies for optimal system 
-    performance and reliability.
+    work: `Spearheaded the development of microservices-based applications within the Digi Migration System, focusing on customer 
+    data management. Designed and implemented scalable solutions using Java Spring Boot, JPA, and related technologies to enhance 
+    system performance and reliability. Key achievements include the development of high-performance RESTful APIs for efficient data 
+    handling, implementation of caching mechanisms to improve response times, and the architecture of an event-driven microservice to 
+    ensure scalability. Observability and monitoring tools were integrated to enable proactive performance monitoring, while rigorous 
+    unit testing and SonarQube compliance ensured exceptional code quality.
 `,
   },
   {
@@ -23,20 +26,22 @@ const experienceConfig = [
     time: "2021-2022",
     address: "Colombo, Sri Lanka",
     companyLink: "https://www.xeptagon.com/",
-    work: `Led autonomous drone-based antenna detection system development, combining expertise in Python, Java, and machine learning 
-    technologies.`,
+    work: `Led the development of an autonomous drone-based antenna detection system, leveraging Python, Java, and machine learning 
+    technologies. The project was independently managed from research to implementation, showcasing end-to-end ownership. Key 
+    achievements include the creation of an automated drone flight path system using the DJI Mavic Pro 3 Drone Mobile SDK and the 
+    implementation of a YOLOv3-based object detection system for accurate antenna identification on telecommunication towers.`,
   },
   {
     position: "Intern",
     company: "Singapore University of Technology and Design",
     time: "2018 Jun — 2018 Dec",
     address: "Colombo, Sri Lanka",
-    companyLink: "https://www.creativesoftware.com/",
-    work: `Drove real-time analysis of oil rig behaviours by designing and developing ReactJS and TypeScript-based web application in
-partnership with 3D Development Team. Architected and developed Site Reliability Engineering (SRE) dashboard and
-supporting services using the MERN stack, alongside a deployment workflow for efficient management of customer
-information. Ensured robust security measures by engineering secure, cookie-based authentication system utilising Google
-OAuth for server-side user authentication.`,
+    companyLink: "https://www.sutd.edu.sg/",
+    work: `Conducted research on indoor localization, utilizing ROS and computer vision technologies to enhance navigation accuracy. 
+    Implemented and evaluated ORB-SLAM2 with Intel RealSense T265 tracking and D435 depth cameras, significantly improving spatial 
+    awareness. Key achievements include the development of custom odometry fusion algorithms in Java and Python, optimized through 
+    benchmarking against the Robot Localization package, and boosting CNN model performance by applying iterative training strategies 
+    using X-ray machine datasets.`,
   },
 ];
 

@@ -25,7 +25,7 @@ export const Publication = () => {
         />
         <ul className="w-full flex flex-col items-center justify-between ml-4 xs:ml-2" >
           <PublicationDetails
-            type="Research paper published on Conference ICVARS :International Conference on Virtual and Augmented Reality Simulations"
+            type="Research paper published on Conference ICVARS International Conference on Virtual and Augmented Reality Simulations"
             link= "https://dl.acm.org/doi/10.1145/3546607.3546608"
             info="360-Degree Immersive Experience for Indoor Cycling "
           />
