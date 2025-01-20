@@ -37,10 +37,10 @@ export const NavBar = () => {
             <CustomMobileLink href="/projects" title="Projects" onClick={handleClick} />
           </nav>
           <nav className="flex items-center justify-center flex-wrap mt-8 gap-3">
-            <MotionLink href="https://github.com/hasithajayasundara" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }}>
+            <MotionLink href="https://github.com/DinelyWellehewage" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }}>
               <GitHubIcon className=" bg-light rounded-full w-8" />
             </MotionLink>
-            <MotionLink href="https://www.linkedin.com/in/hasithanjo2/" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }}>
+            <MotionLink href="https://www.linkedin.com/in/dinely-shanuka/" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }}>
               <LinkedInIcon className="w-8" />
             </MotionLink>
             {/*<button onClick={() => setMode(mode === 'light' ? 'dark' : 'light')} className="ml-3 flex items-center justify-center rounded-full p-1">
@@ -57,10 +57,10 @@ export const NavBar = () => {
           <CustomLink href="/projects" title="Projects" />
         </nav>
         <nav className="flex items-center justify-center flex-wrap gap-3">
-          <MotionLink href="https://github.com/hasithajayasundara" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }}>
+          <MotionLink href="https://github.com/DinelyWellehewage" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }}>
             <GitHubIcon className="w-8" />
           </MotionLink>
-          <MotionLink href="https://www.linkedin.com/in/hasithanjo2/" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }}>
+          <MotionLink href="https://www.linkedin.com/in/dinely-shanuka/" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }}>
             <LinkedInIcon className="w-8" />
           </MotionLink>
           {/*<button onClick={() => setMode(mode === 'light' ? 'dark' : 'light')} className="ml-3 flex items-center justify-center rounded-full p-1">

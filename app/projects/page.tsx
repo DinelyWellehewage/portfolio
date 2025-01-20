@@ -6,34 +6,30 @@ import manageLandingPage from '../../public/images/projects/manage-landing-page.
 import nexter from '../../public/images/projects/nexter.png';
 import slackClone from '../../public/images/projects/slack-clone.png';
 import spaceTravel from '../../public/images/projects/space-travel.png';
+import gameHub from '../../public/images/projects/gameHub.png';
+import ecommerce from '../../public/images/projects/ecommerce.png';
+import indoor from '../../public/images/projects/indoor.png';
 
 const projects = [
   {
-    title: "Space travel",
-    summary: "Page for an imaginary space travel agency",
-    img: spaceTravel,
-    github: "https://github.com/hasithajayasundara/frontend-mentor-mini-projects/tree/main/space-travel",
-    link: "https://sthnj.netlify.app/",
+    title: "360-Degree Immersive Experience for Indoor Cycling",
+    summary: "Research paper published on Conference ICVARS :International Conference on Virtual and Augmented Reality Simulations:",
+    img: indoor,
+    // github: "https://github.com/hasithajayasundara/frontend-mentor-mini-projects/tree/main/space-travel",
+    link: "https://dl.acm.org/doi/10.1145/3546607.3546608",
   },
   {
-    title: "Manage landing page",
-    summary: "Landing page for an imaginary company",
-    img: manageLandingPage,
+    title: "Game Hub",
+    summary: "Platform with a diverse collection of games",
+    img: gameHub,
     github: "https://github.com/hasithajayasundara/frontend-mentor-mini-projects/tree/main/manage-landing-page",
     link: "https://managelphnj.netlify.app/",
   },
   {
-    title: "Slack Clone",
-    summary: "A simplified clone of Slack, developed using modern web technologies",
-    img: slackClone,
-    github: "https://github.com/hasithajayasundara/slack-clone",
-  },
-  {
-    title: "Nexter",
-    summary: "Landing page for real estate service",
-    img: nexter,
-    github: "https://github.com/hasithajayasundara/websites-html-css-js/tree/main/nexter",
-    link: "https://nextor-hnj.netlify.app/",
+    title: "Ocean Prime E-Commerce ",
+    summary: "E-commerce application designed to provide a seamless online shopping experience",
+    img: ecommerce,
+    github: "https://github.com/DinelyWellehewage/ocean-prime-ecommerce?tab=readme-ov-file",
   },
 ];
 

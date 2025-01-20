@@ -11,8 +11,8 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Hasitha Jayasundara",
-  description: "Hasitha Jayasundara Portfolio",
+  title: "Dinely Shanuka",
+  description: "Dinely Shanuka Portfolio",
 };
 
 export default function RootLayout({

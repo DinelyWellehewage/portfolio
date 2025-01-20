@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-import { fontFamily } from 'tailwindcss/defaultTheme';
+import { fontFamily } from "tailwindcss/defaultTheme";
 
 export default {
   content: [
@@ -7,17 +7,17 @@ export default {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  darkMode: 'class',
+  darkMode: "class",
   theme: {
     extend: {
       fontFamily: {
-        sans: ['var(--font-primary)', ...fontFamily.sans]
+        sans: ["var(--font-primary)", ...fontFamily.sans],
       },
       colors: {
-        dark: "#1b1b1b",
-        light: "#e8f9ff",
-        primary: "#3e52b6",
-        primaryDark: "#58E6D9",
+        dark: "#213555",
+        light: "#F5EFE7",
+        primary: "#9AA6B2",
+        primaryDark: "#3E5879",
       },
     },
     screens: {
@@ -27,7 +27,7 @@ export default {
       md: { max: "767px" },
       sm: { max: "639px" },
       xs: { max: "479px" },
-  },
+    },
   },
   plugins: [],
 } satisfies Config;

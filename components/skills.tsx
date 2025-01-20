@@ -1,13 +1,15 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 import {
   CSS3Icon,
   DockerIcon,
   FigmaIcon,
   GoIcon,
+  Grafana,
   HTML5Icon,
+  Java,
   JavaScriptIcon,
   JenkinsIcon,
   JestIcon,
@@ -17,9 +19,13 @@ import {
   NextJsIcon,
   NodeIcon,
   PostGreSqlIcon,
+  RabbitMq,
   ReactIcon,
   RedisIcon,
+  SonarQube,
+  Spring,
   StorybookIcon,
+  Swagger,
   TailWindIcon,
   TypeScriptIcon,
   ViteIcon,
@@ -32,27 +38,21 @@ type SkillType = {
 };
 
 const config: SkillType[] = [
+  { name: "Java", icon: Java },
+  { name: "Spring", icon: Spring },
   { name: "TypeScript", icon: TypeScriptIcon },
   { name: "JavaScript", icon: JavaScriptIcon },
-  { name: "Go", icon: GoIcon },
-  { name: "Node.js", icon: NodeIcon },
   { name: "React", icon: ReactIcon },
-  { name: "HTML5", icon: HTML5Icon },
-  { name: "CSS3", icon: CSS3Icon },
-  { name: "Kubernetes", icon: KubernetesIcon },
   { name: "Docker", icon: DockerIcon },
-  { name: "Next.js", icon: NextJsIcon },
-  { name: "Vite", icon: ViteIcon },
-  { name: "Tailwind CSS", icon: TailWindIcon },
-  { name: "Webpack", icon: WebpackIcon },
-  { name: "Figma", icon: FigmaIcon },
+  { name: "Kubernetes", icon: KubernetesIcon },
   { name: "Jenkins", icon: JenkinsIcon },
-  { name: "Jest", icon: JestIcon },
-  { name: "Storybook", icon: StorybookIcon },
   { name: "MySql", icon: MySqlIcon },
   { name: "Postgresql", icon: PostGreSqlIcon },
   { name: "Redis", icon: RedisIcon },
-  { name: "MongoDB", icon: MongoIcon }
+  { name: "RabbitMq", icon: RabbitMq },
+  { name: "SonarQube", icon: SonarQube },
+  { name: "Swagger", icon: Swagger },
+  { name: "Grafana", icon: Grafana },
 ];
 
 export const Skills = () => (
@@ -67,13 +67,11 @@ export const Skills = () => (
           className="flex flex-col items-center cursor-pointer"
           initial={{ y: 50 }}
           whileInView={{ y: 0 }}
-          transition={{ duration: 0.5, type: 'spring' }}
+          transition={{ duration: 0.5, type: "spring" }}
           whileHover={{ scale: 1.08 }}
         >
           <Icon className="w-20" />
-          <span className="mt-2 text-sm font-semibold text-dark">
-            {name}
-          </span>
+          <span className="mt-2 text-sm font-semibold text-dark">{name}</span>
         </motion.div>
       ))}
     </div>

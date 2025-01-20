@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import { AnimatedText } from "@/components/animated-text";
 import { Layout } from "@/components/layout";
-import profilePic from '../public/images/profile/hasithaj-02.png';
+import profilePic from "../public/images/profile/dinely.png";
 
 const Home = () => {
   return (
@@ -14,21 +14,24 @@ const Home = () => {
             <Image
               priority
               src={profilePic}
-              alt="Hasitha Jayasundara's picture"
+              alt="Dinely Shanuka's picture"
               className="w-full md:inline-block"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
           </div>
           <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center text-dark">
-            <AnimatedText text="Hi, I'm Hasitha"
+            <AnimatedText
+              text="Hi, I'm Dinely"
               className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
             />
             <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-              As a tech-savvy professional with extensive experience in driving technical innovation,
-              I am passionate about creating scalable, efficient software solutions that not only
-              meet business objectives but exceed them. With a strong track record in full-stack
-              development, I thrive in delivering cutting-edge technology solutions that streamline
-              operations and empower businesses to perform at their best.
+              As a results-driven software developer with extensive experience
+              in building innovative and scalable solutions, I am passionate
+              about crafting efficient software that exceeds business
+              expectations. With a proven track record in backend and full-stack
+              development, I excel at delivering high-quality, cutting-edge
+              applications that optimize operations and empower businesses to
+              achieve their goals.
             </p>
             <div className="flex items-center self-start mt-2 lg:self-center">
               {/*<Link
@@ -42,7 +45,7 @@ const Home = () => {
                 <ExternalLink />
               </Link>*/}
               <Link
-                href="mailto:hasithanjo2work@gmail.com"
+                href="mailto:dinelywh78@gmail.com"
                 className="flex items-center gap-5 bg-dark text-light p-2 px-6 rounded-lg text-lg 
                 font-semibold hover:bg-light hover:text-dark border-2
                 border-solid border-transparent hover:border-dark"
