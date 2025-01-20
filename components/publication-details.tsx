@@ -26,7 +26,7 @@ export const PublicationDetails = ({ type, link, info }: Props) => {
       >
         <h3 className="font-bold text-2xl sm:text-xl xs:text-lg">{type}</h3>
         <p className="font-medium w-full text-dark">{info}</p>
-        <Link target="_blank" href={link} download={true}>
+        <Link className="text-wrap block text-dark" target="_blank" href={link}>
           {link}
         </Link>
       </motion.div>
