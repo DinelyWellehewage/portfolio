@@ -3,7 +3,6 @@
 import { useScroll, motion } from "framer-motion";
 import { useRef } from "react";
 
-import { EducationDetails } from "./education-details";
 import { PublicationDetails } from "./publication-details";
 
 export const Publication = () => {

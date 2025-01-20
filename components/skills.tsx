@@ -3,33 +3,21 @@
 import { motion } from "framer-motion";
 
 import {
-  CSS3Icon,
   DockerIcon,
-  FigmaIcon,
-  GoIcon,
   Grafana,
-  HTML5Icon,
   Java,
   JavaScriptIcon,
   JenkinsIcon,
-  JestIcon,
   KubernetesIcon,
-  MongoIcon,
   MySqlIcon,
-  NextJsIcon,
-  NodeIcon,
   PostGreSqlIcon,
   RabbitMq,
   ReactIcon,
   RedisIcon,
   SonarQube,
   Spring,
-  StorybookIcon,
   Swagger,
-  TailWindIcon,
   TypeScriptIcon,
-  ViteIcon,
-  WebpackIcon,
 } from "./icons";
 
 type SkillType = {
